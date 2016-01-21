@@ -10,6 +10,7 @@ A small library that unifies the HTML5 Notifications APIs accross different brow
 <ol>
 	<li><a href="#introduction">Introduction</a></li>
 	<li><a href="#browsers-support">Browsers Support</a></li>
+	<li><a href="#install">Install</a></li>
 	<li><a href="#demo">Demo</a></li>
 	<li><a href="#usage">Usage</a></li>
 	<li><a href="#api-documentation">API Documentation</a></li>
@@ -90,6 +91,12 @@ IE9 introduced pinned sites, a convenient way for users to access your website d
 <sup>3</sup> Support for Firefox less than version 23 only when <a href="http://code.google.com/p/ff-html5notifications/">html5-notifications plugin</a> is installed. Recommended version is 1.2.0.1 - see the following issue: http://code.google.com/p/ff-html5notifications/issues/detail?id=58 . Firefox 23 introduced native support for html5 desktop Notifications. For MacOS <a href="http://www.growl.info/">Growl</a> app is required. Firefox Mobile for Android does NOT require any plugins installed.
 
 <a href="#html5-desktop-notifications">top</a>
+
+## Install
+
+```
+ bower install ttsvetko/HTML5-Desktop-Notifications --save
+```
 
 ## Demo
 <a href="http://ttsvetko.github.io/HTML5-Desktop-Notifications/" target="_blank">Demo page</a>
